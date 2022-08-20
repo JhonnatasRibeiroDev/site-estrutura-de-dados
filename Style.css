@@ -76,6 +76,12 @@ main .fundo{
     align-items: center;
     justify-content: center;
 }
+footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
 .option-selecao{
     cursor: pointer;
     max-width: 550px;
@@ -125,5 +131,11 @@ body{
     }
     header p{
         font-size: 10px;
+    }
+    footer{
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        padding: 0;
     }
 }
