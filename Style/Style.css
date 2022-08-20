@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: #2a508e;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+    ;
+}
+.logo p{
+    opacity: 0%;
+    transition: 1s;
+    cursor: pointer;
+}
+.logo p:hover{
+    
+    opacity: 100%;
+}
+
+.subheader{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #2a508e;
+    background-color: #00ffbf;
+}
+
+.subheader-pt1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.subheader-pt1 .title{
+    color: #2a508e;
+    padding-right: 30px;
+    border-radius: 1px;
+    border-right:1px solid #2a508e;
+    transition: 0.2s;
+}
+.subheader-pt1 .title:hover{
+    cursor: pointer;
+    opacity: 60%;
+    border-radius: 19px 19px;
+    padding-right: 10px;
+    border-right:50px solid #2a508e;
+}
+.membros{
+    font-size: 10px;
+}
+main{
+    height: 550px;
+    background-image: url('https://www.integratto.com.br/wp-content/uploads/2021/02/digital-cyberspace-with-particles-and-digital-data-network-connections-high-speed-connection-data-analysis-future-background-concept-scaled.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main .fundo{
+    text-align: center;
+    color: white;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.option-selecao{
+    cursor: pointer;
+    max-width: 550px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 22px;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+.option-selecao:hover{
+    transform: scale(1.1);
+    background-color:#19325966;
+}
+.top-option-main a{
+    text-decoration: none;
+    color: white;
+}
+.top-option-main .top-title-main{
+    color: white;
+}
+body{
+    background-color: #2a508e;
+    
+}
+@media (max-width: 599px) { 
+    .subheader{
+        padding: 15px;
+        display: block;
+        
+        color: #2a508e;
+        background-color: #00ffbf;
+    }
+    .subheader-pt1{
+        padding-top: 10px;
+        border-top: 1px solid rgba(145, 142, 142, 0.993);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 19px;
+    }
+    .fundo{
+        padding: 10px;
+    }
+    body{
+        padding: 20px;
+    }
+    header p{
+        font-size: 10px;
+    }
+}
